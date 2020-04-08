@@ -1,8 +1,10 @@
 package com.example.demo;
 
+//order 에서 만든 이벤트이나 클래스 형식으로 복사해서 기져옴
 public class OrderPlaced {
     String eventType;
     int qty;
+    Long orderId;
     Long productId;
     String productName;
     int productStock;
@@ -27,6 +29,15 @@ public class OrderPlaced {
     public void setQty(int qty) {
         this.qty = qty;
     }
+
+    public Long getOrderId() {
+        return orderId;
+    }
+
+    public void setOrderId(Long orderId) {
+        this.orderId = orderId;
+    }
+
 
     public Long getProductId() {
         return productId;

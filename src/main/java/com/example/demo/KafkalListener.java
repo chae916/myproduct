@@ -6,6 +6,7 @@ import org.springframework.cloud.stream.messaging.Processor;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Service;
 
+// 서비스 형식으로 선언
 @Service
 public class KafkalListener {
     @Autowired
